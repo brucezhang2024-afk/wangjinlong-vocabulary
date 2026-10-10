@@ -1,13 +1,13 @@
 # 한 걸음 · 韩语闪卡
 
-移动端韩语闪卡，含 100 词、FSRS 智能复习、韩语朗读和本地进度备份。
+[打开学习应用](https://brucezhang2024-afk.github.io/wangjinlong-vocabulary/)
 
-## 使用
+4433 张卡片：原书主体 3000 条、附录 1412 条、旧版补充 21 条。按初/中/高级、UNIT 和附录筛选；支持韩中搜索、FSRS 间隔复习、韩语朗读、进度本地保存及备份。
 
-访问 https://brucezhang2024-afk.github.io/wangjinlong-vocabulary/ 。
+全书扫描整理与一轮校订完成。附录 1424 行合并 12 条完全重复记录；同词不同义和专题复习卡片保留。词条附来源页码，原书疑误附校订说明。缺失译文按韩语补译，附录没有的例句留空。这不等同于出版级语言终审。
 
-当前仓库存放可直接托管的生产版本。完整 React / TypeScript 源码、测试和 Actions 工作流在 [korean-flashcards-source.zip](./korean-flashcards-source.zip) 中。解压后可运行 npm ci、npm run dev；修改后 npm run build。
+旧版 100 个卡片 ID 保持不变，旧学习记录继续关联。清理浏览器或换设备前请导出备份。
 
-词库中 64 词来自桌面既有整理资料，36 词对照扫描原书 PDF 第 14–17 页补录。未包含整本书，未发布原 PDF、OCR 草稿和个人进度。
+[校订说明](REVIEW.md) · [可编辑 React/TypeScript 源码](korean-flashcards-source.zip)
 
-进度存储在当前设备的浏览器中。可在设置页导出备份并在其他设备导入。
+本站直接发布生产文件；Pages 使用 main 分支根目录。源码包含测试及构建说明，不包含原书 PDF 和个人学习历史。
